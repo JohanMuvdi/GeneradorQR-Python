@@ -12,3 +12,5 @@ nombre_imagen = nombre_del_participante + '.png'
 archivo_imagen = open(nombre_imagen, 'wb')
 codigo_qr.save(archivo_imagen)
 archivo_imagen.close()
+
+print(f'El codigo QR de {nombre_del_participante} esta Listo!')
