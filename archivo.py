@@ -1,7 +1,0 @@
-import qrcode
-from PIL import Image
-
-nombre_del_participante = input("Nombre y Apellido: ")
-documento_identificacion = input('Documento de identidad: ')
-datos_del_participante = nombre_del_participante + ' ' + documento_identificacion
-codigo_qr = qrcode.make(datos_del_participante)
